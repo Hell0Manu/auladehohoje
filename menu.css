@@ -1,0 +1,47 @@
+/*ALTERA TODAS AS MARGIN E PADDING*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*ALTERA FONTE DO SITE*/
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+/*DA COR A AREA DE NAVEGAÇÃO*/
+nav {
+	background-color: #282828;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	padding: 30px 8px 25px 16px;
+}
+
+/*DEIXA A LISTA NA HORIZONTAL, CENTRALIZA E TIRA A BOLINHA DA LIST*/
+ul {
+	display: flex;
+	justify-content: end;
+	list-style-type: none;
+}
+
+/*DA ESPAÇAMENTO ENTRE AS PALAVRAS*/
+li { 
+	margin-right: 20px;
+}
+a {
+	color: #c4c4c4;
+	text-decoration: none;
+}
+
+/*DEFINIE A COR DOS BOTOES DA AREA DE NAVEGAÇÃO*/
+.nav-list a {
+	background-color: #414141;
+	border-radius: 2px;
+	padding: 20px ;
+}
+
+/*MUDA OS BOTOES DA AREA DE NAVEGAÇÃO QUANDO CLICADO*/
+.nav-list a:hover {
+	background: #626262;
+    color: #ffffff;
+    box-shadow: inset 0px 3px #989898;
+}
